@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber::class)
     @CucumberOptions(
         features = ["src/main/resources/features"],
-        tags = ["@api"],
+        glue = ["org/kotlin/uiapi/kotlinuiapi/stepdefinitions"],
+        tags = ["@ui"],
         dryRun = false,
         plugin = [
             "pretty",
