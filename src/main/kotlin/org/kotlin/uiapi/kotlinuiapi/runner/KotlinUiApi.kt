@@ -17,26 +17,10 @@ import org.junit.runner.RunWith;
             "html:target/cucumber-report",
             "json:target/cucumber-report/cucumber.json",
             "junit:target/cucumber-report/cucumber-results.xml",
-        ]
-
-
-        /*
-         features = ["src/main/resources/features"],
-         glue = ["kotlinuiapi.stepdefinitions"],
-            tags = ["@ui"],
-            dryRun = false,
-            plugin = [
-                    "pretty",
-                    "html:target/cucumber-report",
-                    "json:target/cucumber-report/cucumber.json",
-                    "junit:target/cucumber-report/cucumber-results.xml",
-            ]
-         */
-
-       )
+        ])
 
 
 @SpringBootApplication
-class KotlinuiapiApplication
+class KotlinUiApi
 
 

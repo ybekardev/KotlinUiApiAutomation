@@ -2,4 +2,4 @@ Feature: UI Scenarios
 
   @ui
   Scenario: Log on
-    Given User lands on the "https://www.google.com/" page
+    Given User lands on the "url" page

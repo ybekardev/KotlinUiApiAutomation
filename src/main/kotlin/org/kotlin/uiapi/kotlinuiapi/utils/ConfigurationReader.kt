@@ -14,7 +14,7 @@ object ConfigurationReader {
         try {
             //path to our .properties file
             //MIGHT BE WRONG PATH HERE, PAY ATTENTION
-            val path = "src/main/resources/application.properties"
+            val path = "src/main/resources/environment/dev.properties"
             //we create object of input stream to access file
             println(path)
             //provides access to file

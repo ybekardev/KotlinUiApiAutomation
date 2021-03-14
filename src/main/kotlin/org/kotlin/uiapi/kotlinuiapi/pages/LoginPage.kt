@@ -13,7 +13,12 @@ class LoginPage() {
     }
 
     fun goToLandingPage(url: String){
-        Driver.getDriver()?.get(url)
+        //if the url is given on the feature file directly use the below ome;
+        // Driver.getDriver()?.get(url)
+
+        // link is given on config property file
+        Driver.getDriver()?.get(getProperty("url"))
+
 
 
     }
