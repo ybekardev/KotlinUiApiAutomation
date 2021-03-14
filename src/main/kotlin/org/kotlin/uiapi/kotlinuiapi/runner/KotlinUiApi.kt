@@ -1,7 +1,6 @@
-package org.kotlin.uiapi.kotlinuiapi
+package org.kotlin.uiapi.kotlinuiapi.runner
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -10,7 +9,7 @@ import org.junit.runner.RunWith;
     @CucumberOptions(
         features = ["src/main/resources/features"],
         glue = ["org/kotlin/uiapi/kotlinuiapi/stepdefinitions"],
-        tags = ["@ui"],
+        tags = ["@api"],
         dryRun = false,
         plugin = [
             "pretty",
